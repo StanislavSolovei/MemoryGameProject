@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memo Game</title>
+  <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <h1>MEMO GAME</h1>
+
+      <div class="stats" aria-label="Statystyki gry">
+        <div>Ruchy: <strong id="moves">0</strong></div>
+        <div>Czas: <strong id="time">00:00</strong></div>
+      </div>
+    </header>
+
+    <section class="content">
+      <p id="message" class="message" aria-live="polite"></p>
+
+      <section id="board" class="board" aria-label="Plansza gry"></section>
+
+      <div class="controls">
+        <button id="new-game" class="button" type="button">Nowa gra</button>
+
+        <label for="difficulty" class="difficulty">
+          Poziom:
+          <select id="difficulty">
+            <option value="4">Łatwy (4 pary)</option>
+            <option value="6">Średni (6 par)</option>
+            <option value="8">Trudny (8 par)</option>
+          </select>
+        </label>
+      </div>
+
+      <section class="scores" aria-labelledby="scores-title">
+        <h2 id="scores-title">Najlepsze wyniki</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Poziom</th>
+              <th>Ruchy</th>
+              <th>Czas</th>
+            </tr>
+          </thead>
+          <tbody id="scores-body"></tbody>
+        </table>
+      </section>
+    </section>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
