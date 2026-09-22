@@ -5,8 +5,11 @@ Zespół: 2 Temat: Gra memory
 ## Role
 
 Integrator (main.js, index.html): Stanislav
+
 API (api.js): Mikita
+
 Stan (stan.js): Darii
+
 Widok (widok.js, styl.css): Maksym
 
 ## 1. Szkic ekranu
