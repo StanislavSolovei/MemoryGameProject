@@ -1,6 +1,6 @@
 # KARTA KONTRAKTU — TEMAT 5. GRA MEMORY
 
-Zespół: 2 Temat: Gra memory
+Zespół: 2 Temat: Gra memory.
 
 ## Role
 
